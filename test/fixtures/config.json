@@ -1,0 +1,156 @@
+{
+  "guildId": "100000000000000001",
+  "adminRoleIds": [
+    "100000000000000002",
+    "100000000000000003"
+  ],
+  "teamRoleId": "100000000000000005",
+  "userRoleId": "100000000000000030",
+  "subteams": [
+    {
+      "name": "Support",
+      "roleIds": [
+        "100000000000000006",
+        "100000000000000007"
+      ]
+    },
+    {
+      "name": "Moderation",
+      "roleIds": [
+        "100000000000000008"
+      ]
+    },
+    {
+      "name": "Billing",
+      "roleIds": [
+        "100000000000000009"
+      ]
+    }
+  ],
+  "ticketChannelId": "100000000000000021",
+  "archiveChannelId": "100000000000000022",
+  "categories": [
+    {
+      "name": "General support",
+      "categoryId": "100000000000000023",
+      "defaultRoleIds": [
+        "100000000000000006",
+        "100000000000000007"
+      ]
+    },
+    {
+      "name": "Bug report",
+      "categoryId": "100000000000000024",
+      "defaultRoleIds": [
+        "100000000000000006"
+      ]
+    },
+    {
+      "name": "Billing",
+      "categoryId": "100000000000000025",
+      "defaultRoleIds": [
+        "100000000000000009"
+      ]
+    },
+    {
+      "name": "Report a user",
+      "categoryId": "100000000000000026",
+      "defaultRoleIds": [
+        "100000000000000008"
+      ]
+    },
+    {
+      "name": "Unban request",
+      "categoryId": "100000000000000027",
+      "defaultRoleIds": [
+        "100000000000000008",
+        "100000000000000002"
+      ]
+    }
+  ],
+  "roleCommandChannelId": "100000000000000037",
+  "roleManagement": [
+    {
+      "managerRoleIds": [
+        "100000000000000008",
+        "100000000000000006"
+      ],
+      "assignableRoles": [
+        {
+          "id": "100000000000000031",
+          "name": "Verified"
+        },
+        {
+          "id": "100000000000000032",
+          "name": "Event host"
+        }
+      ]
+    },
+    {
+      "managerRoleIds": [
+        "100000000000000002"
+      ],
+      "assignableRoles": [
+        {
+          "id": "100000000000000033",
+          "name": "Moderator"
+        }
+      ]
+    }
+  ],
+  "voiceNotificationChannelId": "100000000000000037",
+  "voiceGroups": [
+    {
+      "name": "Support waiting room",
+      "channelIds": [
+        "100000000000000041",
+        "100000000000000042"
+      ],
+      "pingRoleIds": [
+        "100000000000000006",
+        "100000000000000007"
+      ]
+    },
+    {
+      "name": "Billing waiting room",
+      "channelIds": [
+        "100000000000000043"
+      ],
+      "pingRoleIds": [
+        "100000000000000009"
+      ]
+    }
+  ],
+  "banLog": {
+    "inputChannelId": "100000000000000044",
+    "outputChannelId": "100000000000000045",
+    "panelMessageId": "100000000000000046",
+    "reasons": [
+      "Spam",
+      "Harassment",
+      "Hate speech",
+      "Scam links",
+      "Ban evasion",
+      "Alt account"
+    ]
+  },
+  "reactionLogChannelId": "100000000000000037",
+  "reactionRoles": [
+    {
+      "roleId": "100000000000000030",
+      "channelId": "100000000000000048",
+      "requiredRoleId": "100000000000000031",
+      "messageId": "100000000000000050",
+      "minAccountAgeDays": 30
+    },
+    {
+      "roleId": "100000000000000034",
+      "channelId": "100000000000000051",
+      "messageId": "100000000000000052",
+      "startTime": "18:00",
+      "endTime": "22:00",
+      "lastClosedEffectiveEndIso": "",
+      "lastWarnedEffectiveEndIso": ""
+    }
+  ]
+}

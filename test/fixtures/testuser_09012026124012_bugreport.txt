@@ -1,0 +1,9 @@
+[2026-01-09 11:40:12] Tickets#0001: Hi <@111111111111111111>,
+
+thanks for reaching out about **Bugreport**.
+Someone from the team will get back to you here as soon as possible.
+
+Use the buttons below to close the ticket or, as a team member, to bring in a subteam.
+
+<@&100000000000000006> <@&100000000000000007>
+[2026-01-09 11:40:17] Tickets#0001: ℹ️ The user has been inactive for more than 3 days. Ticket closed by the team.
